@@ -8,6 +8,6 @@ namespace AnalisisNumerico.Logica
 {
     public class FuncionesMatematicas
     {
-
+        
     }
 }

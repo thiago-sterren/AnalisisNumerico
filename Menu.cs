@@ -14,7 +14,7 @@ namespace AnalisisNumerico
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Unidad1 unidad1 = new Unidad1();
+            Unidad1.Unidad1 unidad1 = new Unidad1.Unidad1();
             unidad1.Show();
             this.Hide();
         }
