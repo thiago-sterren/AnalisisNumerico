@@ -46,7 +46,7 @@ namespace AnalisisNumerico.Unidad1
                     for (int i = 1; i <= iteraciones; i++)
                     {
                         double derivada = analizadorDeFunciones.Dx(xi);
-                        if (derivada < tolerancia || derivada == double.NaN)
+                        if (Math.Abs(derivada) < tolerancia || derivada == double.NaN)
                         {
                             MessageBox.Show($"El método diverge. No encuentra raíz");
                             break;
