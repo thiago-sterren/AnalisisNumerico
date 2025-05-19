@@ -53,6 +53,7 @@
             btnUnidad2.TabIndex = 1;
             btnUnidad2.Text = "Unidad 2 - Sistemas de ecuaciones";
             btnUnidad2.UseVisualStyleBackColor = true;
+            btnUnidad2.Click += btnUnidad2_Click;
             // 
             // btnUnidad3
             // 
@@ -81,7 +82,7 @@
             label1.TabIndex = 4;
             label1.Text = "Sistema Análisis Numérico 2025";
             // 
-            // Form1
+            // Menu
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -91,7 +92,7 @@
             Controls.Add(btnUnidad3);
             Controls.Add(btnUnidad2);
             Controls.Add(btnUnidad1);
-            Name = "Form1";
+            Name = "Menu";
             Text = "Form1";
             Load += Form1_Load;
             ResumeLayout(false);
