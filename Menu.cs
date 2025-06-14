@@ -25,5 +25,12 @@ namespace AnalisisNumerico
             unidad2.Show();
             this.Hide();
         }
+
+        private void btnUnidad3_Click(object sender, EventArgs e)
+        {
+            Unidad3.Unidad3 unidad3 = new Unidad3.Unidad3();
+            unidad3.Show();
+            this.Hide();
+        }
     }
 }

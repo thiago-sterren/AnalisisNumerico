@@ -118,7 +118,7 @@
             // 
             txtFuncion.Location = new Point(216, 70);
             txtFuncion.Name = "txtFuncion";
-            txtFuncion.Size = new Size(125, 27);
+            txtFuncion.Size = new Size(271, 27);
             txtFuncion.TabIndex = 12;
             // 
             // btnCalcular

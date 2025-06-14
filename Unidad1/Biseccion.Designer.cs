@@ -55,7 +55,7 @@
             // 
             txtFuncion.Location = new Point(172, 48);
             txtFuncion.Name = "txtFuncion";
-            txtFuncion.Size = new Size(125, 27);
+            txtFuncion.Size = new Size(240, 27);
             txtFuncion.TabIndex = 1;
             // 
             // txtXI

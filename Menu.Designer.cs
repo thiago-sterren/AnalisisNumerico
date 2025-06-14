@@ -63,6 +63,7 @@
             btnUnidad3.TabIndex = 2;
             btnUnidad3.Text = "Unidad 3 - Ajustes de curvas";
             btnUnidad3.UseVisualStyleBackColor = true;
+            btnUnidad3.Click += btnUnidad3_Click;
             // 
             // btnUnidad4
             // 
