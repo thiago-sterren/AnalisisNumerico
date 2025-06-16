@@ -1,3 +1,5 @@
+using AnalisisNumericoTP4;
+
 namespace AnalisisNumerico
 {
     public partial class Menu : Form
@@ -30,6 +32,13 @@ namespace AnalisisNumerico
         {
             Unidad3.Unidad3 unidad3 = new Unidad3.Unidad3();
             unidad3.Show();
+            this.Hide();
+        }
+
+        private void btnUnidad4_Click(object sender, EventArgs e)
+        {
+            Unidad4 unidad4 = new Unidad4();
+            unidad4.Show();
             this.Hide();
         }
     }

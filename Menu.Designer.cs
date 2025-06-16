@@ -73,6 +73,7 @@
             btnUnidad4.TabIndex = 3;
             btnUnidad4.Text = "Unidad 4 - Integración numérica";
             btnUnidad4.UseVisualStyleBackColor = true;
+            btnUnidad4.Click += btnUnidad4_Click;
             // 
             // label1
             // 
